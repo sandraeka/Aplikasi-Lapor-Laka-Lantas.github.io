@@ -1,0 +1,271 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0p 0px; 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    /* position: relative; */
+}
+
+.header {
+    padding: 10px 120px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.gambar-logo {
+    width: 200px;
+    display: inline;
+    float: left;
+    margin-left: 25px;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 200;
+    float: right;
+    font-family: courier;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+    margin-top: 7px;
+}
+
+nav {
+    /* width: 50%; */
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    /* position: sticky;
+    position: -webkit-sticky;
+    top: 0; */
+    background: #FFFFFF;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    /* display: flex; */
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+#home {
+    padding-top: 100px;
+}
+
+#home .kolom {
+    margin-bottom: 50px;
+    float: left;
+    width: 50%;
+}
+
+#tentang-kami {
+    display: inline-block;
+}
+
+#tentang-kami .kolom {
+    width: 50%;
+    float: right;
+    padding-top: 80px;
+}
+
+#tentang-kami .gambar-logo {
+    width: 40%;
+    float: left;
+}
+
+#peta-titik {
+    display: block;
+}
+
+#peta-titik-rawan-laka {
+    display: block;
+    padding-top: 110px;
+}
+
+.kolom .deskripsi {
+    font-weight: bold;
+    font-family: 'Comic sans ms';
+    color: #000000;
+}
+
+section img {
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-hitam {
+    background: #000000;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hitam:hover {
+    background: #000000;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #000000;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+
+}
+
+#courses {
+    width: 1100px;
+    display: inline-block;
+}
+#courses .kolom {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+#courses img {
+    width: 50%;
+    float: left;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.peta-titik-rawan-laka {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titik-rawan {
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.titik-rawan img {
+    width: 500px;
+}
+
+.titik-rawan p {
+    font-family:'comic sans ms';
+    font-weight: 800;
+    font-size:  25px;
+    text-align: center;
+    color: #000000;
+}
+
+#grafik-kecelakaan {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.angka-kecelakaan {
+    width:100%;
+    margin: 0 auto;
+}
+
+.angka-kecelakaan img {
+    width: 800px;
+    border-radius: 20px;
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright p {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
